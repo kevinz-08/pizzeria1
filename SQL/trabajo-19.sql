@@ -1,13 +1,4 @@
--- Active: 1750072773908@@127.0.0.1@3307@mysql
--- Eliminar base de datos si ya existe (opcional)
-DROP DATABASE IF EXISTS pizzas;
-
--- Crear base de datos
-CREATE DATABASE IF NOT EXISTS pizzas COLLATE utf8mb4_general_ci;
-USE pizzas;
-
--- TABLAS PRINCIPALES
-
+-- Active: 1750334299134@@127.0.0.1@3307@pizzas
 CREATE TABLE IF NOT EXISTS cliente (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   nombre VARCHAR(100) NOT NULL,
